@@ -6,7 +6,6 @@ An intelligent full-stack application that transforms natural language into exec
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green?style=for-the-badge\&logo=springboot)
 ![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge\&logo=react)
 ![LangChain4j](https://img.shields.io/badge/LangChain4j-AI-yellow?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=for-the-badge)
 
 ---
 
