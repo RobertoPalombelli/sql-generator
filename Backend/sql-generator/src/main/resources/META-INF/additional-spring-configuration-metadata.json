@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "github.configuration.token",
+  "type": "java.lang.String",
+  "description": "A description for 'github.configuration.token'"
+}]}

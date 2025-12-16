@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* =========================
+   THEME — Tailwind v4
+   ========================= */
+@theme {
+  /* Font */
+  --font-sans: "Inter", sans-serif;
+
+  /* Primary color palette */
+  --color-primary-50:  #f0fdfa;
+  --color-primary-100: #ccfbf1;
+  --color-primary-200: #99f6e4;
+  --color-primary-300: #5eead4;
+  --color-primary-400: #2dd4bf;
+  --color-primary-500: #14b8a6;
+  --color-primary-600: #0d9488;
+  --color-primary-700: #0f766e;
+}
+
+/* =========================
+   BASE STYLES
+   ========================= */
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-slate-50);
+  }
+}
+
+/* =========================
+   UTILITIES
+   ========================= */
+@layer utilities {
+  /* Custom scrollbar for code blocks */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: var(--color-slate-100);
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: var(--color-slate-300);
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: var(--color-slate-400);
+  }
+}
